@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+
+        body{
+            background-color: #f4f3f3;
+            color: rgb(15, 15, 15);
+            margin: 0px;
+            padding: 0px;
+            border: 20px solid aquamarine;
+        }
+        nav{
+            padding: 50px;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            grid-template-columns: 2fr 2fr;
+           
+        }
+        nav .logo{
+            width: 50px;
+            padding-left: 70px;
+           color: aquamarine;
+            
+        }
+
+
+        .navbar ul{
+            display: flex;
+            justify-content: center;align-items: center;
+            list-style: none;
+            gap: 40px;
+            color: darkgray;
+        }
+
+        
+
+        .container{
+            display: grid;
+            grid-template-columns: 3fr 2fr;
+            
+        }
+
+        .container .box1{
+            width: 70%;
+            padding-left: 100px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+             
+        }
+
+        .box1 h2{
+            font-size: 40px;
+            letter-spacing: 5px;
+        }
+        .box1 h1{
+            color: aquamarine;
+            font-size: 42px;
+            display: inline;
+            letter-spacing: 5px;
+        }
+        .box1 h3{
+            font-size: 42px;
+            padding: 0px;
+            display: inline;
+        }
+        .box1 p {
+            font-size: 18px;
+            line-height: 25px;
+            color: gray;
+        }
+
+        .box1 p span {
+           color: #222;
+        }
+       
+        
+
+        .container .box2{
+            width: 20%;
+        }
+
+        .box2 img{
+            width: 250px;
+        }
+
+        .btn-glow {
+            background-color: #4faf65;
+            padding: 5px;
+            width: 120px;
+            border: 0px solid white;
+            border-radius: 2px;
+            margin: 20px 0px;
+        }
+
+        footer{
+            display: flex;
+            grid-template-columns: 1fr;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            color: gray;
+        }
+        span{
+            color: #222;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+           <h2>traine.me</h2>
+        </div>
+        <div class="navbar">
+            <ul>
+            <li class="list1">Home</li>
+            <li class="list2">About</li>
+            <li class="list3">Training</li>
+            </ul>
+        </div>
+      
+        
+    </nav>
+    <div class="container">
+        <div class="box1">
+            <h2>WORKOUTS MADE</h2>
+            <h1>EXCLUSIVE <h3>FOR YOU!</h3></h1>
+            
+            <p>We create <span>Exclusive and unique workouts</span> for you. <br>
+                Invest your in body and <span>get much more performance</span> <br> and quality of life. 
+            </p>
+
+            <button class="btn-glow"> 🗳️Start now</button>
+        </div>
+        <div class="box2">
+            <img src="6.jpg" alt="image">
+        </div>
+        
+    </div>
+    <footer>Send us a massage <span>@traine.me</span></footer>
+</body>
+</html>

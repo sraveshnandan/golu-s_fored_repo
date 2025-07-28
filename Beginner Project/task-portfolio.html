@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+
+        body{
+            background-color: #222;
+            color: aliceblue;
+            margin: 0px;
+            padding: 0px;
+        }
+        nav{
+            padding: 10px;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            grid-template-columns:0fr 3fr 1fr;
+            box-shadow: 0px 2px 3px gray;
+        }
+        nav img{
+            width: 50px;
+            
+        }
+
+        .navbar ul{
+            display: flex;
+            justify-content: start;align-items: center;
+            list-style: none;
+            gap: 40px;
+        }
+        .btnd{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .btn {
+            padding: 10px;
+            width: 100px;
+            font-weight: 600;
+            background-color: aqua;
+            box-shadow: 0px 1px 5px aqua;
+            border: none;
+        }
+
+        .btn:hover {
+        box-shadow: 0px 1px 10px aqua;     
+        cursor: pointer;        
+        }
+
+        .container{
+            display: grid;
+            grid-template-columns: 2fr 3fr;
+            /* padding: 10px; */
+        }
+        .box1{
+            width: 50%;
+            padding: 20px 50px;
+        }
+
+        .box1 img{
+            width: 350px;
+        }
+
+        .box2{
+            width: 80%;
+            padding: 20px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .box2 h2{
+            color: aquamarine;
+            letter-spacing: 1px;
+            
+        }
+        .box2 h1{
+            font-size: 50px;
+           
+           
+        }
+
+        .box2 h3 {
+            color: aquamarine;
+             font-size: 50px;
+            line-height: 10px;
+        }
+
+        .box2 .btn-glow{
+            background-color: #222;
+            color: aqua;
+            margin-top: 20px;
+            padding: 10px;
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .btn-glow:hover{
+            background-color: aqua;
+            cursor: pointer;
+            color: #222;
+            border: 1px solid #f6f5f5;
+
+        }
+        .box2  p{
+            line-height: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="logo.png" alt="image">
+        </div>
+        <div class="navbar">
+            <ul>
+            <li class="list1">HOME</li>
+            <li class="list2">ABOUT</li>
+            <li class="list3">SERVICES</li>
+            <li class="list4">BLOG</li>
+            <li class="list5">MORE</li>
+            </ul>
+        </div>
+        <div class="btnd"><button class="btn">CONTACT</button></div>
+        
+    </nav>
+    <div class="container">
+        <div class="box1">
+            <img src="6.jpg" alt="image">
+        </div>
+        <div class="box2">
+            <h2>Golu Kumar</h2>
+            <h1>I'm Web </h1>
+            <h3>Developer</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum vitae alias harum, iusto natus accusantium placeat culpa provident minima possimus obcaecati blanditiis minus eveniet dolore, iste officiis quos veritatis ut, ullam sed consequuntur aliquid quasi! Illo recusandae sint numquam voluptatum. Sit dolores doloribus, laudantium minima impedit quia, qui nobis ratione sint unde porro eius quasi nesciunt dicta fuga voluptatem itaque consequatur, dolorem neque magnam vitae nemo nihil? Minima dolorem maiores sint sequi corrupti eaque accusantium doloribus itaque tempora? Non provident ratione aliquid dolorem, voluptate illo excepturi obcaecati. Delectus distinctio eum dolorem enim sed impedit minus possimus, illo, totam ad ducimus.</p>
+
+            <button class="btn-glow">DOWNLOAD CV</button>
+        </div>
+    </div>
+</body>
+</html>
